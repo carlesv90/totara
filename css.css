@@ -1778,6 +1778,52 @@ h2#instance-8378-header {
   border-radius: var(--border-radius);
   font-weight: 500;
 }
+ 
+.feedback_form.ianonymous.mform {
+  margin-top: 35px;
+}
+ 
+.feedback_form.ianonymous.mform .legend,
+.feedback_form.ianonymous.mform .requirednote,
+.fitem.femptylabel.feedback_mode {
+  display: none !important;
+}
+ 
+.feedback_form.ianonymous.mform .fitem .fitemtitle {
+  width: 0% !important;
+}
+ 
+.feedback_form.ianonymous.mform .fitem > fieldset > legend {
+  width: 0%;
+}
+ 
+.path-mod-feedback div.feedback_itemlist {
+  border: none;
+  margin: 0;
+  padding-top: 0;
+}
+ 
+.feedback_form.ianonymous.mform .fitem_actionbuttons {
+  margin-top: 35px;
+}
+ 
+.feedback_form.ianonymous.mform .felement {
+  margin: 0 0 15px 0 !important;
+}
+ 
+.feedback_form.ianonymous.mform .felement.fstatic {
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+ 
+.feedback_form.ianonymous.mform .fgroup .felement label {
+  margin: 2px 13px 0 0;
+}
+ 
+.mform .felement.fstatic .no-overflow {
+  color: #666666;
+  font-weight: 600;
+}
 
 /* ==============================
    PLANTILLA DETALLES
