@@ -1765,7 +1765,7 @@ h2#instance-8378-header {
 }
 
 /* ==============================
-   EVALUACIONES
+   FEEDBACK
    ============================== */
 #feedback h3[id^="yui_"],
 #feedback h3:nth-of-type(2) {
@@ -1825,6 +1825,41 @@ h2#instance-8378-header {
   font-weight: 600;
 }
 
+/* ========================================
+   QUIZ/EVALUATION STYLES
+   ======================================== */
+ 
+.que.multichoice.deferredfeedback .qtext {
+  font-weight: 500;
+  color: #006d7c;
+  margin: 3px 0 0 -20px;
+}
+ 
+.que.multichoice .answer div.r0,
+.que.multichoice .answer div.r1 {
+  padding-left: 7px;
+  border-radius: 15px;
+}
+ 
+.que.multichoice .answer div.r0 input,
+.que.multichoice .answer div.r1 input {
+  margin: 0 -7px 0 -38px;
+}
+ 
+.que.multichoice.deferredfeedback .state,
+.que.multichoice.deferredfeedback .grade,
+.que.multichoice.deferredfeedback .questionflag {
+  display: none;
+}
+ 
+.que.multichoice.deferredfeedback .no {
+  background-color: #00b7bd;
+  border-radius: 16px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+ 
 /* ==============================
    PLANTILLA DETALLES
    ============================== */
