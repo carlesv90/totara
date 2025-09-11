@@ -3010,9 +3010,9 @@ a.courserating-resume-lite {
 /* ==============================
    CUESTIONARIO CONDICIONES
    ============================== */
-#question-11724-1 .que.info {
-   display:none;
+#question-11724-1.que.shortanswer.deferredfeedback.notyetanswered .info {
+   display:none!important;
 }
-#question-11724-1 .que.qtext {
-   margin-left:-100px;
+#question-11724-1.que.shortanswer.deferredfeedback.notyetanswered .qtext {
+   margin-left:-100px!important;
 }
