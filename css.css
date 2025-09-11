@@ -3007,3 +3007,12 @@ a.courserating-resume-lite {
 #page-course-info div[role="main"] > p > a {
   display: none;
 }
+/* ==============================
+   CUESTIONARIO CONDICIONES
+   ============================== */
+#question-11724-1 .que.info {
+   display:none;
+}
+#question-11724-1 .que.qtext {
+   margin-left:-100px;
+}
