@@ -405,22 +405,22 @@ h3.mod_facetoface__eventinfo__content__eventdetail__heading {
   }
 
   /* BOTÓN PÁGINA CALIFICACIONES PROFESORES */
-  #inst8620 .content, #inst9006 .content {
+  #inst8620 .content, #inst9006 .content, #inst9120 .content {
     background-color: var(--color-accent) !important;
     padding: var(--spacing-medium);
   }
 
-  #inst8620 .content a, #inst9006 .content a {
+  #inst8620 .content a, #inst9006 .content a, #inst9120 .content a{
     color: white !important;
     font-weight: 500;
     font-size: 1.1em;
   }
 
-  #inst8620 .content a img, #inst9006 .content a img {
+  #inst8620 .content a img, #inst9006 .content a img, #inst9120 .content a img{
     margin-right: var(--spacing-medium);
   }
 
-  #inst8620 .content:hover, #inst9006 .content:hover {
+  #inst8620 .content:hover, #inst9006 .content:hover, #inst9120 .content:hover {
     background-color: #F18D7E90 !important;
   }
 
