@@ -3015,3 +3015,71 @@ li.option #choice_1{
     margin-bottom: 40px!important;
  
 }
+/* 
+OCULTAR "Informes" migas de pan
+*/
+.breadcrumb li:nth-child(2):has(a[href*="reports"]) {
+    display: none;
+}
+
+
+/* ==============================
+   DASHBOARDS TENANTS
+   ============================== */
+
+
+/* Opción 3: Más específico si conoces la estructura del header */
+*:has(header input[name="id"][value="211"]) form#totara_reportbuilder_viewsavedsearch,
+*:has(header input[name="id"][value="211"]) form.rb-search.mform,
+*:has(header input[name="id"][value="211"]) form#totara_reportbuilder_viewsavedsearch,
+*:has(header input[name="id"][value="211"]) form.rb-search.mform, 
+*:has(header input[name="id"][value="211"]) .box.reportbuilder-description {
+    display: none !important;
+}
+
+/* Dashboard Tenans | Bloque LFE y destacados*/
+#inst9320 .block-totara-featured-links-layout .block-totara-featured-links-content::before, #inst9321 .block-totara-featured-links-layout .block-totara-featured-links-content::before, 
+#inst9363 .block-totara-featured-links-layout .block-totara-featured-links-content::before,
+#inst9367 .block-totara-featured-links-layout .block-totara-featured-links-content::before {
+background: rgba(255, 255, 255, 0.0)!important;
+}
+#inst9320 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3 {
+color:white!important;
+font-size:0.95em!important;
+padding-bottom:5px!important;
+}
+#inst9321 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3,
+#inst9363 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3, #inst9367 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3{
+color:white!important;
+padding-bottom:5px!important;
+}
+#inst9321 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom p, #inst9320 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom p{
+color:white!important;
+margin-top:-7px!important;
+}
+
+.block-totara-featured-links-layout .block-totara-featured-links-tile.background-cover:hover {
+  opacity: 0.8 !important;
+}
+
+.block-totara-featured-links-layout.align-left.square {
+margin-top:0px!important;
+margin-bottom:20px!important; 
+}
+
+#inst216 .block-totara-featured-links-layout.align-left.square {
+margin-top:20px!important;
+}
+*/ Informe panel*/
+#inst9331 .totara-table-container .totara-toolbar-top {
+display:none!important; 
+}
+#inst9331 thead tr th {
+  background-color: #438693;
+  color: white;
+  padding: 14px;
+}
+#inst9331 thead a {
+ color: white!important;
+}
+
