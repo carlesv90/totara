@@ -3037,10 +3037,10 @@ OCULTAR "Informes" migas de pan
     display: none !important;
 }
 
-/* Dashboard Tenans | Bloque LFE y destacados*/
+/* Dashboard Tenants | Bloque LFE y destacados*/
 #inst9320 .block-totara-featured-links-layout .block-totara-featured-links-content::before, #inst9321 .block-totara-featured-links-layout .block-totara-featured-links-content::before, 
 #inst9363 .block-totara-featured-links-layout .block-totara-featured-links-content::before,
-#inst9367 .block-totara-featured-links-layout .block-totara-featured-links-content::before {
+#inst9367 .block-totara-featured-links-layout .block-totara-featured-links-content::before, #inst9453 .block-totara-featured-links-layout .block-totara-featured-links-content::before  {
 background: rgba(255, 255, 255, 0.0)!important;
 }
 #inst9320 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3 {
@@ -3049,7 +3049,7 @@ font-size:0.95em!important;
 padding-bottom:5px!important;
 }
 #inst9321 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3,
-#inst9363 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3, #inst9367 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3{
+#inst9363 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3, #inst9367 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3,  #inst9453 .block-totara-featured-links-layout .block-totara-featured-links-content.block-totara-featured-links-content-bottom h3{
 color:white!important;
 padding-bottom:5px!important;
 }
