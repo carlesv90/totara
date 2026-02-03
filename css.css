@@ -198,6 +198,21 @@ li.activity.statuscritical,
 .course-content ul.weeks li.section .content {
   overflow: hidden;
 }
+/* ==============================
+   ITINERARIO ENFERMERÍA 1061
+   ============================== */
+
+body.course-1061 #region-top .content.block-content{
+width:49%;
+margin:auto;
+border-radius:20px;
+background-color:white;
+padding:20px!important;
+box-shadow:0 1px 3px 1px #ddd;
+}
+body.course-1061 #region-top .block .block-header{
+display:none!important;
+}
 
 /* ==============================
    FAQ - ACORDEÓN
