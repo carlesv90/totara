@@ -203,7 +203,8 @@ li.activity.statuscritical,
    ============================== */
 
 body.course-1061 #region-top .content.block-content{
-width:49%;
+/*width:49%;*/
+max-width: 1650px;   
 margin:auto;
 border-radius:20px;
 background-color:white;
