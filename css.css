@@ -203,7 +203,7 @@ li.activity.statuscritical,
    ============================== */
 
 body.course-1061 #region-top .content.block-content{
-/*width:49%;*/
+
 max-width: 1650px;   
 margin:auto;
 border-radius:20px;
@@ -213,6 +213,14 @@ box-shadow:0 1px 3px 1px #ddd;
 }
 body.course-1061 #region-top .block .block-header{
 display:none!important;
+}
+/*Checks desplazados*/
+body.course-1061 #module-18401 .activityinstance{
+width:94%!important;
+}
+
+body.course-1061 #module-18419 .activityinstance{
+width:94%!important;
 }
 
 /* ==============================
