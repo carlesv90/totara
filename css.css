@@ -1165,7 +1165,15 @@ h3.mod_facetoface__eventinfo__content__eventdetail__heading {
   padding: 1em !important;
 }
 
-.cta-catalog .content.block-content .no-overflow {
+.cta-onetech .content.block-content {
+  background-image: url("https://ivirmacampus.com/pluginfile.php/1/local_uploadfiles/additionalimages/0/onetech-catalog.png") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  color: white !important;
+  padding: 1em !important;
+}
+
+.cta-catalog .content.block-content .no-overflow, .cta-onetech .content.block-content .no-overflow {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1174,13 +1182,13 @@ h3.mod_facetoface__eventinfo__content__eventdetail__heading {
   padding: 1em !important;
 }
 
-.cta-catalog .content.block-content h4.title {
+.cta-catalog .content.block-content h4.title, .cta-onetech .content.block-content h4.title{
   font-family: "VAGRoundedStd" !important;
   font-weight: bold;
   font-size: 26px !important;
 }
 
-.cta-catalog .content.block-content .btn-dcha a {
+.cta-catalog .content.block-content .btn-dcha a, .cta-onetech .content.block-content .btn-dcha a{
   border: 1px solid white;
   padding: var(--spacing-small) 25px;
   border-radius: 25px;
@@ -1189,7 +1197,7 @@ h3.mod_facetoface__eventinfo__content__eventdetail__heading {
   font-weight: 500;
 }
 
-.cta-catalog .content.block-content .btn-dcha a:hover {
+.cta-catalog .content.block-content .btn-dcha a:hover, .cta-onetech .content.block-content .btn-dcha a:hover {
   background-color: #ffffff20 !important;
   color: white !important;
 }
