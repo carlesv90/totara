@@ -1182,6 +1182,17 @@ h3.mod_facetoface__eventinfo__content__eventdetail__heading {
   padding: 1em !important;
 }
 
+.cta-onetech .content.block-content .no-overflow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px !important;
+    padding: 1em !important;
+    align-content: center;
+}
+
+
 .cta-catalog .content.block-content h4.title, .cta-onetech .content.block-content h4.title{
   font-family: "VAGRoundedStd" !important;
   font-weight: bold;
