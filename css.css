@@ -1831,6 +1831,10 @@ h2#instance-8378-header {
 .fitem.femptylabel.feedback_mode {
   display: none !important;
 }
+
+#feedback_dragarea .feedback_form.ianonymous.mform .legend, #feedback_dragarea .feedback_form.ianonymous.mform .requirednote,#feedback_dragarea .fitem.femptylabel.feedback_mode{
+display: block !important;
+}
  
 .feedback_form.ianonymous.mform .fitem .fitemtitle {
   width: 0% !important;
