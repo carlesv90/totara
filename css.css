@@ -2261,7 +2261,6 @@ div#region-main #inst230.block .content {
 #inst291 td a img.course_icon,
 #inst797 td a img.course_icon,
 #inst215 td a img.course_icon,
-#inst10236 td a img.course_icon,
 #inst230 td a img.course_icon {
   background: var(--color-primary-light);
   padding: 14px;
@@ -2272,7 +2271,7 @@ div#region-main #inst230.block .content {
 }
 
 #inst10236 td a img.course_iconn {
-  background: #72153 !important;
+  background: background: var(--color-primary) !important;
 }
 /* ==============================
    INFORMES CURSOS FINALIZADOS LFE
