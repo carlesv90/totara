@@ -2271,6 +2271,9 @@ div#region-main #inst230.block .content {
   border-bottom-left-radius: var(--border-radius);
 }
 
+#inst10236 td a img.course_iconn {
+  background: #72153 !important;
+}
 /* ==============================
    INFORMES CURSOS FINALIZADOS LFE
    ============================== */
