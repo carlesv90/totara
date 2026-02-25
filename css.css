@@ -2177,6 +2177,7 @@ display: block !important;
 #inst291 thead,
 #inst797 thead,
 #inst215 thead,
+#inst10236 thead,
 #inst230 thead {
   display: none;
 }
@@ -2184,6 +2185,7 @@ display: block !important;
 #inst291 .footer,
 #inst797 .footer,
 #inst215 .footer,
+#inst10236 .footer,
 #inst230 .footer {
   display: none;
 }
@@ -2191,6 +2193,7 @@ display: block !important;
 #inst291 tbody,
 #inst797 tbody,
 #inst215 tbody,
+#inst10236 tbody,
 #inst230 tbody {
   display: flex;
   flex-direction: row;
@@ -2200,6 +2203,7 @@ display: block !important;
 div#region-main #inst291.block .content,
 div#region-main #inst797.block .content,
 div#region-main #inst215.block .content,
+div#region-main #inst10236.block .content,
 div#region-main #inst230.block .content {
   border-radius: 0px;
   border: none;
@@ -2210,6 +2214,7 @@ div#region-main #inst230.block .content {
 #inst291 tr,
 #inst797 tr,
 #inst215 tr,
+#inst10236 tr,
 #inst230 tr {
   width: calc(50% - 10px);
   border-top: 0;
@@ -2219,6 +2224,7 @@ div#region-main #inst230.block .content {
 #inst291 td,
 #inst797 td,
 #inst215 td,
+#inst10236 td {
 #inst230 td {
   display: flex;
   border-top: 0;
@@ -2231,6 +2237,7 @@ div#region-main #inst230.block .content {
 #inst291 td a,
 #inst797 td a,
 #inst215 td a,
+#inst10236 td a,
 #inst230 td a {
   width: 100% !important;
   display: flex;
@@ -2246,6 +2253,7 @@ div#region-main #inst230.block .content {
 #inst291 td a:hover,
 #inst797 td a:hover,
 #inst215 td a:hover,
+#inst10236 td a:hover,
 #inst230 td a:hover {
   filter: drop-shadow(0px 4px 4px rgba(0.8, 0.8, 0.8, 0.1));
 }
@@ -2253,6 +2261,7 @@ div#region-main #inst230.block .content {
 #inst291 td a img.course_icon,
 #inst797 td a img.course_icon,
 #inst215 td a img.course_icon,
+#inst10236 td a img.course_icon,
 #inst230 td a img.course_icon {
   background: var(--color-primary-light);
   padding: 14px;
