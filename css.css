@@ -1359,6 +1359,7 @@ div#region-main #inst286.block .content {
 /* ==============================
    DASHBOARD VISOR DE PUNTOS
    ============================== */
+
 .visor .fo-completa {
   padding: 0.5em 1em;
   background-color: #85C99C;
@@ -1367,7 +1368,6 @@ div#region-main #inst286.block .content {
   width: fit-content;
   border-radius: 8px;
 }
-
 .visor .fo-incompleta {
   padding: 0.5em 1em;
   background-color: #7A2840;
@@ -1376,13 +1376,11 @@ div#region-main #inst286.block .content {
   width: fit-content;
   border-radius: 8px;
 }
-
 .title_lfe.visor {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .title_lfe.visor .lfe-visor-puntuacion {
   padding: 0.5em 1em !important;
   background-color: #85C99C;
@@ -1392,37 +1390,52 @@ div#region-main #inst286.block .content {
   margin-left: var(--spacing-large);
   display: inline-block;
 }
-
 /* OCULTACIÓN DE CABECERAS Y FOOTERS */
 #inst278 thead,
+#inst9479 thead,
+#inst9480 thead,
+#inst9481 thead,
+#inst9482 thead,
 #inst279 thead,
 #inst281 thead,
 #inst280 thead {
   display: none;
 }
-
 #inst277 .footer a,
+#inst9478 .footer a,
 #inst278 .footer a,
+#inst9479 .footer a,
+#inst9480 .footer a,
+#inst9481 .footer a,
+#inst9482 .footer a,
 #inst279 .footer a,
 #inst280 .footer a,
 #inst281 .footer a {
   display: none;
 }
-
 #inst277 .alert-with-icon,
+#inst9478 .alert-with-icon,
 #inst278 .alert-with-icon,
+#inst9479 .alert-with-icon,
+#inst9480 .alert-with-icon,
+#inst9481 .alert-with-icon,
+#inst9482 .alert-with-icon,
 #inst279 .alert-with-icon,
 #inst281 .alert-with-icon {
   display: none;
 }
-
-#inst277 tbody > tr:nth-of-type(odd) {
+#inst277 tbody > tr:nth-of-type(odd),
+#inst9478 tbody > tr:nth-of-type(odd) {
   background-color: white !important;
 }
-
 /* ESTILOS DE BLOQUES DE CONTENIDO */
 div#region-main #inst277.block .content,
+div#region-main #inst9478.block .content,
 div#region-main #inst278.block .content,
+div#region-main #inst9479.block .content,
+div#region-main #inst9480.block .content,
+div#region-main #inst9481.block .content,
+div#region-main #inst9482.block .content,
 div#region-main #inst279.block .content,
 div#region-main #inst280.block .content,
 div#region-main #inst281.block .content {
@@ -1431,42 +1444,59 @@ div#region-main #inst281.block .content {
   box-shadow: none;
   background: transparent;
 }
-
 div#region-main #inst277.block .content tbody,
+div#region-main #inst9478.block .content tbody,
 div#region-main #inst278.block .content tbody,
+div#region-main #inst9479.block .content tbody,
+div#region-main #inst9480.block .content tbody,
+div#region-main #inst9481.block .content tbody,
+div#region-main #inst9482.block .content tbody,
 div#region-main #inst279.block .content tbody,
 div#region-main #inst281.block .content tbody {
   background-color: white !important;
 }
-
 div#region-main #inst277.block .content tbody td,
+div#region-main #inst9478.block .content tbody td,
 div#region-main #inst278.block .content tbody td,
+div#region-main #inst9479.block .content tbody td,
+div#region-main #inst9480.block .content tbody td,
+div#region-main #inst9481.block .content tbody td,
+div#region-main #inst9482.block .content tbody td,
 div#region-main #inst279.block .content tbody td,
 div#region-main #inst280.block .content tbody td,
 div#region-main #inst281.block .content tbody td {
   padding: 12px !important;
 }
-
 div#region-main #inst278.block .content tbody td.course_courselinkicon img,
+div#region-main #inst9479.block .content tbody td.course_courselinkicon img,
+div#region-main #inst9480.block .content tbody td.course_courselinkicon img,
+div#region-main #inst9481.block .content tbody td.course_courselinkicon img,
+div#region-main #inst9482.block .content tbody td.course_courselinkicon img,
 div#region-main #inst279.block .content tbody td.course_courselinkicon img,
 div#region-main #inst281.block .content tbody td.course_courselinkicon img {
   margin-right: var(--spacing-small);
 }
-
 div#region-main #inst278.block .content tbody > tr:nth-of-type(odd),
+div#region-main #inst9479.block .content tbody > tr:nth-of-type(odd),
+div#region-main #inst9480.block .content tbody > tr:nth-of-type(odd),
+div#region-main #inst9481.block .content tbody > tr:nth-of-type(odd),
+div#region-main #inst9482.block .content tbody > tr:nth-of-type(odd),
 div#region-main #inst279.block .content tbody > tr:nth-of-type(odd),
 div#region-main #inst280.block .content tbody > tr:nth-of-type(odd),
 div#region-main #inst281.block .content tbody > tr:nth-of-type(odd) {
   background-color: #fcfcfc !important;
 }
-
 div#region-main #inst277.block .content tbody td:last-child,
+div#region-main #inst9478.block .content tbody td:last-child,
 div#region-main #inst278.block .content tbody td:last-child,
+div#region-main #inst9479.block .content tbody td:last-child,
+div#region-main #inst9480.block .content tbody td:last-child,
+div#region-main #inst9481.block .content tbody td:last-child,
+div#region-main #inst9482.block .content tbody td:last-child,
 div#region-main #inst279.block .content tbody td:last-child,
 div#region-main #inst280.block .content tbody td:last-child {
   text-align: center !important;
 }
-
 /* COLORES DE CABECERA POR SECCIÓN */
 div#region-main #inst278 .header.block-header {
   background-color: var(--color-primary) !important; /* Monthly seminars */
