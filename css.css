@@ -1499,19 +1499,21 @@ div#region-main #inst280.block .content tbody td:last-child {
 }
 /* COLORES DE CABECERA POR SECCIÓN */
 div#region-main #inst278 .header.block-header,
-div#region-main #inst9479 .header.block-header,
-div#region-main #inst9480 .header.block-header,
-div#region-main #inst9481 .header.block-header,
-div#region-main #inst9482 .header.block-header {
+div#region-main #inst9479 .header.block-header{
   background-color: var(--color-primary) !important; /* Monthly seminars */
 }
-div#region-main #inst279 .header.block-header {
+div#region-main #inst279 .header.block-header,
+div#region-main #inst9480 .header.block-header{
   background-color: #008897 !important; /* MRP */
 }
-div#region-main #inst280 .header.block-header {
+
+div#region-main #inst280 .header.block-header,
+div#region-main #inst9481 .header.block-header
+{
   background-color: #66a9b3 !important; /* Certificados */
 }
-div#region-main #inst281 .header.block-header {
+div#region-main #inst281 .header.block-header,
+div#region-main #inst9482 .header.block-header{
   background-color: #8cbfc6 !important; /* Cursos adicionales */
 }
 div#region-main #inst278 .header.block-header h2,
