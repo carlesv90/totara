@@ -1682,42 +1682,42 @@ div#region-main #inst281 .header.block-header h2::after {
 #page-totara-dashboard-16 .block-region {
   padding: 0 2em;
 }
-
 #inst8148 .footer a,
 #inst8154 .footer a,
 #inst8161 .footer a,
-#inst8378 .footer a {
+#inst8378 .footer a,
+#inst11363 .footer a {
   display: none;
 }
-
 #inst8148 thead tr th,
 #inst8154 thead tr th,
-#inst8378 thead tr th {
+#inst8378 thead tr th,
+#inst11363 thead tr th {
   background-color: #52b4bb;
   color: white;
   padding: 14px;
 }
-
 #inst8148 thead tr th.course_courselink,
 #inst8154 thead tr th.course_courselink,
-#inst8378 thead tr th.evidence_custom_field_1 {
+#inst8378 thead tr th.evidence_custom_field_1,
+#inst11363 thead tr th.course_courselink {
   border-top-left-radius: var(--border-radius);
 }
-
 #inst8154 thead tr th.course_completion_status,
 #inst8148 thead tr th.c5,
-#inst8378 thead tr th:last-child {
+#inst8378 thead tr th:last-child,
+#inst11363 thead tr th:last-child {
   border-top-right-radius: var(--border-radius);
 }
-
 .tenant-user-ext #inst8148 .course_category_name,
-.tenant-user-ext #inst8154 .course_category_name {
+.tenant-user-ext #inst8154 .course_category_name,
+.tenant-user-ext #inst11363 .course_category_name {
   display: none;
 }
-
 #inst8148 thead a,
 #inst8154 thead a,
-#inst8378 thead a {
+#inst8378 thead a,
+#inst11363 thead a {
   color: white !important;
 }
 
